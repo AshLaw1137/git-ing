@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>aashiqlaw-online-cv</title>
+    <link rel="stylesheet" href="Bootstrap/bootstrap-sub/bootstrap-css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- style sheet not linking, internal style used -->
+    <style media="screen">
+
+      body{
+        background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/HD-Galaxy-Wallpaper-Tumblr-Free-Downlaod.jpg) , url(https://5dwallpaper.com/wp-content/uploads/2016/11/galaxy-wallpaper-tumblr-HD-Download4.jpg);
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 15px;
+      }
+      p.lead{
+        color:#534;
+      }
+      p{
+        color:grey;
+      }
+      li{
+        color:grey;
+      }
+      nav{
+        background-color: black;
+      }
+      h1, h2, h3, h4{
+        color:#b44ae4bf;
+      }
+      hr{
+        background-color:none;
+      }
+      img.center{
+        width:100px;
+        padding:5px;
+        border-radius: 50%;
+        }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      img.tiny{
+        width:50px;
+        border-radius: 80%;
+      }
+      div.nextto{
+        column count:2;
+        column-gap: 20px;
+      }
+      .class-lg-8:hover{
+        color:#bcbdbf;
+        background-color:#262a2f;
+        border-radius:15px;
+      }
+      .col1:hover{
+        float:left;
+        width:100px;
+        color: #bcbdbf;
+        background-color: #262A2F;
+      }
+      .col2:hover{
+        float:left;
+        width:200px;
+        color: #bcbdbf;
+        background-color: #262A2F;
+      }
+      .hobbies{
+        text-align: center;
+        width:330px;
+        padding-top:10px;
+        padding-left:10px;
+        padding-right:10px;
+        padding-bottom:5px;
+        background-color:#272a30; border-radius:10px;
+        color:#bcbdbf;
+        margin-left:auto;
+        margin-right:auto;
+      }
+      img.icons{
+        margin-left: 10%;
+        border-radius: 50%;
+      }
+      select{
+        background-color: #262A2F;
+        color: #bcbdbf;
+      }
+      .hoverable:hover{
+        color:#8c40bc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav style="margin-bottom:20px; background-color:#262a2f" class="sticky-top navbar navbar-expand-lg ">
+      <div class="container">
+        <h1>Curriculum Vitae</h1>
+        <img class="center" src="https://i.pinimg.com/originals/56/7b/14/567b1405e1b1d574b9ae2f54c33921ab.jpg" alt="killmonger-mask">
+        <h3>Aashiq Lawrence<img class="tiny" alt="Mahalo" src="https://i.pinimg.com/originals/d1/82/39/d1823951ac4ec20b5e24b40e8b19bdfb.jpg"></h3>
+      </div>
+      </div>
+    </nav>
+    <!-- The Content -->
+    <div class="container">
+      <div class="row">
+        <div style="text-align:center; margin:auto; width:810px;" class="class-lg-8">
+         <h4>About Me:</h4>
+        <p style="padding-left:10px; padding-right:10px; padding-bottom:10px">
+          Who i am, is a self-motivated, self-driven and  hardworking young individual with an endeavor to grow and learn new things. Kind-hearted yet diligent, I believe that the self-creation and
+          implementation of good-organizing and time-management leads to peak efficiency.
+        </p>
+        </div>
+      </div>
+      <!-- contact detail dropdown list -->
+      <div class="dropdown"><h5 style="text-decoration:underline"><button style="border-radius:15px; color:#b44ae4bf; background-color:#262a2f" class="dropbtn">Contact Details:</button></h5>
+        <select >
+          <option>Email: aashiqlaw11@gmail.com</option>
+          <option>Tel: 065-993-5504</option>
+          <option>Github: Ashlaw1137</option>
+        </select>
+      </div>
+      <hr>
+      <!-- body content -->
+      <div class="row nextto">
+        <!-- the left column -->
+        <div class="col1" style="width:50%; border-radius:15px;">
+          <!-- heading -->
+          <h4 style=" text-align:center; padding-left:10px; padding-top:10px">
+            <img class="tiny" src="http://www.iconarchive.com/download/i3532/artua/star-wars/Darth-Vader.ico" alt="vader-attributes">
+            Attributes and Skills:
+          </h4>
+          <!-- body -->
+          <ul style="padding-left:25px; padding-bottom: 10px; font-weight:400">
+            <li>Self-motivation And Drive</li>
+            <li>Time Management</li>
+            <li>Ability To Work Under Pressure</li>
+            <li>Conflict Resolution</li>
+            <li>Adaptability</li>
+            <li>Creativity</li>
+            <li>Programming Languages (listed -->)</li>
+            <li>Leadership and Persevereance</li>
+          </ul>
+
+          <!-- icon images -->
+          <img class="icons" style="width:50px" src="https://image.freepik.com/free-icon/github-logo-in-a-rounded-square_318-40761.jpg" alt"github">
+          <img class="icons" style="width:50px" src="https://image.freepik.com/free-icon/html-file-extension-interface-symbol_318-45345.jpg" alt="html">
+          <img class="icons" style="width:50px" src="https://n6-img-fp.akamaized.net/free-icon/css-file-format-with-brackets_318-45223.jpg?size=338&ext=jpg" alt="css">
+          <img class="icons" style="width:50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3omQSXSccBwGaO4Sb7UyUGPCOwFoiBL5SrcMjUx6_r6IiWpce" alt="javascript">
+          <img class="icons" style="width:50px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTycTQs-pwCpt8S8WiL8BcX6qhZnwx8EmcRlPE638JSb0jGTiHlNA" alt="jQuery">
+        </div>
+        <!-- the right column -->
+        <div class="col2" style="margin-bottom:0px; padding-right:10px; width:50%; text-align:; border-radius: 15px;">
+          <!-- right column heading -->
+          <h4 style="text-align:center; padding-right:10px; padding-top:10px">
+            <img class="tiny" src="https://exoffender.org/wp-content/uploads/2017/09/education-icon.png" alt="education-icon">
+            Academics & Education:</h4>
+          <!-- right column body -->
+          <ul>
+            <p class="lead" style="text-decoration:underline">Tertiary Education</p>
+            <li>Institution: CodeSpace</li>
+            <li>Course: Front end web developement</li>
+            <li>Subjects: Programming, professional development, design thinking</li>
+            <li>Programming Languages: HTML and Bootstrap Framework, CSS (SASS and
+                SCSS), Javascript (Node.js, Express.js, Mongoose,jQuery, React.js), Mongodb, MySQL </li>
+          </ul>
+          <ul>
+            <p class="lead" style="text-decoration:underline">Secondary Education</p>
+            <li>Institution: Oude Molen Acadamy Of Science And Technology</li>
+            <li>Subjects: Physics, Pure-Math, English, Afrikaans, LO, Civil Engineering Technology </li>
+          </ul>
+        </div>
+      </div>
+
+      <hr>
+      <!-- hobbies bubble -->
+      <div class="hobbies">
+        <h4>
+          <img class="tiny" src="https://lh3.googleusercontent.com/8CdI1yupwNGi4x5Tq2Fqx6taWG1o4oxXk1obMBu-E-ZqRm1rAvfELKQl3bNmYaEvMcc=w300" alt="MMA-hobbies">
+          Hobbies and Interests:
+        </h4>
+        <p>My hobbies include:
+          Self-training in Mixed-Martial Arts, Running (overall fitness), General Media (music, movies etc.), learning new skills (example: the Art of Persuasion) and my new-found love for Coding.
+        </p>
+      </div>
+
+      <!-- end -->
+      <footer>
+        <!-- CV onlick button -->
+        <input class="hoverable" style="background-color:#272a30; border-radius:10px" type="button" onclick="confirm('Looking to hire?')" value="Does this CV interest you? (Click)">
+      </footer>
+    </div>
+  </body>
+</html>
