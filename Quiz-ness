@@ -121,7 +121,7 @@
         choice = choices[i].value;
       }
     }
-    //if answer matches correct choice add point, correct choice = question[pos][4]
+    //if answer matches correct choice add point, correct choice = question[pos][5]
     if(choice == questions[pos][5]){
 
       correct++;
