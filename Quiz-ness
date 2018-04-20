@@ -38,7 +38,7 @@
 
   //create //Le´ global variables
   var pos = 0, theTest, test_status, question, choices, chA, chB, chC, correct = 0;
-
+//using multi-dimensional arrays
   let questions =[
     ['What is the true color of water?', 'clear', 'grey', 'blue', 'white', 'C'],
 
@@ -84,7 +84,7 @@
   function get(x){
     return document.getElementById(x);
   }
-  //creating a nextQuestion function
+  //creating a nextQuestion function with help from codemahal.com
   function nextQuestion(){
     test = get('test');
     if(pos >= questions.length) {
@@ -112,7 +112,7 @@
     test.innerHTML += '<input type="radio" name="choices" value="D"> ' +chD+ '<br></br>';
     test.innerHTML += '<button onclick="checkAnswer()">Submit Answer</button>';
   }
-  // creating a checkAnswer function
+  // creating a checkAnswer function with help from codemahal.com
   function checkAnswer(){
 
     choices = document.getElementsByName('choices');
